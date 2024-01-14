@@ -74,4 +74,4 @@ server.on('message', (msg, rinfo) => {
   });
 });
 
-server.bind(5051, 'localhost');
+server.bind(5055, '0.0.0.0');
